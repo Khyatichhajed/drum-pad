@@ -1,0 +1,39 @@
+
+body{
+    background: url("cool-music-background-hd-1600x900-49951.jpg")no-repeat center center fixed;
+    margin:0;
+    padding:0;
+    font-family:'Times New Roman', Times, serif;
+}
+.keys{
+    display:flex;
+    flex: 1;
+    min-height: 100vh; 
+    align-items: center;
+    justify-content: center;
+}
+
+.key{
+    border: 2px solid rgb(248, 200, 200);
+    color:rgb(209, 219, 59);
+    font-size: 1.5rem;
+    margin: 1rem;
+    padding: 1rem 0.5rem;
+    width: 10rem;
+    text-align: center;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 0.5rem black;
+    transition:all 0.3s ease;
+    border-radius: 13px;
+}
+.playing{
+    transform:scale(1,1);
+    color: white;
+    border-color: gold;
+    box-shadow: 0 0 10px gold;
+}
+kbd{
+    display: block;
+    font-size: 1.2rem;
+}
+  
